@@ -5,8 +5,8 @@
     box-sizing: border-box;
 }
 
-.main-container{
-    background-color: rgb(61, 60, 60);
+.container{
+    background-color: #3d3c3c;
     width: 100%;
     margin: auto;
 }
@@ -34,6 +34,30 @@ header{
     margin-bottom: 2rem;
 }
 
-.flex.container{
+.main-container{
+    background-color: #3d3c3c;
+}
+
+.img-section{
+    background-color: rgb(128, 28, 28);
+    height: 20rem;
+    width: 80%;
+    margin: auto;
+    padding: 2rem
+}
+
+.flex-container{
     display: flex;
+    
+}
+
+.img{
+    background-color: #af79e2;
+    width: 50%;
+    margin-right: 2rem;
+}
+
+.text{
+    background-color: #af79e2;
+    width: 50%;
 }
