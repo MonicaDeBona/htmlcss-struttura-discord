@@ -17,16 +17,20 @@ header>div{
 
 .side-left{
     width: 25%;
-    align-self: flex-start;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .center{
     width: 50%;
-    align-self: center;
+    display: flex;
+    justify-content: center;
 }
 
 .side-right{
-    align-self: flex-end;
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 header{
@@ -42,7 +46,7 @@ header>div{
 
 .flex-container{
     flex-direction: row;
-    justify-content: space-between;
+    
 }
 
 header>div{
