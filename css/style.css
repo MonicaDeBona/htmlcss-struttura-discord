@@ -4,3 +4,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.main-container{
+    background-color: rgb(61, 60, 60);
+    width: 100%;
+    margin: auto;
+}
+
+.header-section{
+    background-color: rgb(159, 233, 208);
+    height: 20rem;
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    background-color: #af79e2;
+    height: 4rem;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.title{
+    background-color:#af79e2 ;
+    height: 10rem;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.flex.container{
+    display: flex;
+}
