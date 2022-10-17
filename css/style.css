@@ -5,86 +5,63 @@
     box-sizing: border-box;
 }
 
-.container{
-    background-color: #3d3c3c;
-    width: 100%;
-    margin: auto;
-}
-
-.header-section{
-    background-color: rgb(159, 233, 208);
-    height: 20rem;
-    width: 80%;
-    margin: auto;
-}
-
 header{
-    background-color: #af79e2;
-    height: 4rem;
-    width: 70%;
-    margin: auto;
-    margin-bottom: 2rem;
+    background-color: #add8e6;
+    margin: 0 auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
-.title{
-    background-color:#af79e2 ;
-    height: 10rem;
+header>div{
+    background-color: #daa520;
+}
+
+header.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+header>div{
+    padding: 1rem;
+    border: solid 1px black;
+}
+
+.title-section{
+    background-color: #00008b;
+    padding: 2rem;
+}
+
+.title-section>div{
+    background-color: #ee82ee;
     width: 50%;
-    margin: auto;
-    margin-bottom: 2rem;
-}
-
-.main-container{
-    background-color: #3d3c3c;
+    height: 20rem;
+    margin: 0 auto;
 }
 
 .img-section{
-    background-color: rgb(128, 28, 28);
-    height: 20rem;
-    width: 80%;
-    margin: auto;
-    padding: 2rem
+    background-color: rgb(124, 20, 20);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
-.flex-container{
+.img-section>div{
+    width: 35%;
+    height: 20rem;
+    border: 1px solid black;
+    background-color: #add8e6;
+}
+
+.img-flexcontainer{
     display: flex;
     flex-direction: row;
-    
+    justify-content: center;
 }
 
-.img{
-    background-color: #af79e2;
-    width: 50%;
-    margin-right: 2rem;
+.white{
+    background-color: white;
 }
 
-.text{
-    background-color: #af79e2;
-    width: 50%;
-}
-
-.flex-col{
-    display: flex;
-    flex-direction: column;
-}
-
-.col-title{
-    background-color: #af79e2;
-    width: 100%;
-    height: 10rem;
-    margin-bottom: 2rem;
-}
-
-.col-img{
-    background-color: #af79e2;
-    width: 100%;
-    height: 10rem;
-    margin-bottom: 2rem;
-}
-
-.col-subtitle{
-    background-color: #af79e2;
-    width: 100%;
-    height: 10rem;
-    margin-bottom: 2rem;
+.beije{
+    background-color: beije;
 }
