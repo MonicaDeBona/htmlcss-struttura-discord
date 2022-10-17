@@ -48,6 +48,7 @@ header{
 
 .flex-container{
     display: flex;
+    flex-direction: row;
     
 }
 
@@ -60,4 +61,30 @@ header{
 .text{
     background-color: #af79e2;
     width: 50%;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.col-title{
+    background-color: #af79e2;
+    width: 100%;
+    height: 10rem;
+    margin-bottom: 2rem;
+}
+
+.col-img{
+    background-color: #af79e2;
+    width: 100%;
+    height: 10rem;
+    margin-bottom: 2rem;
+}
+
+.col-subtitle{
+    background-color: #af79e2;
+    width: 100%;
+    height: 10rem;
+    margin-bottom: 2rem;
 }
