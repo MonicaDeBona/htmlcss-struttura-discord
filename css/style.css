@@ -11,6 +11,10 @@
     display: flex;
 }
 
+header>div{
+    width: 70%;
+}
+
 header{
     background-color: #add8e6;
     margin: 0 auto;
@@ -22,10 +26,10 @@ header>div{
     background-color: #daa520;
 }
 
-header.flex-container{
+.flex-container{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 header>div{
@@ -78,40 +82,4 @@ header>div{
     background-color: gray;
 }
 
-.green{
-    width: 70%;
-}
 
-
-footer{
-    background-color: beige;
-    
-}
-
-.footer-flexcontainer{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.footer-flexcontainer>div{
-    width: 10%;
-    height: 10rem;
-    border: 1px solid black;
-    background-color: #ee82ee;
-}
-
-.footer-flex{
-    display: flex;
-    justify-content: space-around;
-}
-
-.footer-colour{
-    background-color: purple;
-    padding: 1rem;
-    margin: 0 auto;
-}
-
-.footer-colour>div{
-    background-color: rgb(240, 240, 0);
-}
